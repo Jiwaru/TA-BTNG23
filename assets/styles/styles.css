@@ -1,0 +1,297 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+nav {
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+nav span {
+  color: #ed1b24;
+}
+
+#navbarSupportedContent a {
+  background-image: linear-gradient(#ed1b24, #ed1b24),
+    linear-gradient(white, white);
+  background-size: 0 3px, auto;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  transition: all 0.2s ease-out;
+  font-weight: 600;
+  color: black;
+}
+
+#navbarSupportedContent a:hover {
+  background-size: 100% 3px, auto;
+  color: #ed1b24;
+}
+
+#logo {
+  color: black;
+  transition: all 0.42s;
+}
+
+#logo:hover {
+  color: #ed1b24;
+}
+
+nav #jkt48toha {
+  color: #ed1b24;
+  font-weight: 600;
+  border: 2px solid;
+  border-radius: 30px;
+  background: transparent;
+  text-align: center;
+  padding: 8px 20px;
+  align-items: center;
+  transition: all 0.42s;
+}
+
+nav #jkt48toha:hover {
+  background: #ed1b24;
+  color: white;
+  border: 2px solid transparent;
+}
+
+#home img {
+  border-radius: 3em;
+  border: 5px solid white;
+  width: 85%;
+  box-shadow: 10px 12px 25px rgba(0, 0, 0, 0.15);
+  transition: all 0.42s;
+}
+
+#home img:hover {
+  border-radius: 2em;
+  border: 5px solid #ed1b24;
+  box-shadow: 13px 15px 30px rgba(0, 0, 0, 0.225);
+}
+
+#news {
+  color: rgb(80, 80, 80);
+  transition: all 0.42s;
+}
+
+#news .title {
+  color: #ed1b24;
+  font-weight: 500;
+}
+
+#news .news-type {
+  color: white;
+  width: 90px;
+  border-radius: 25px;
+}
+
+#news #event {
+  background: #ed1b24;
+}
+#news #goods {
+  background: green;
+}
+
+#news #release {
+  background: orange;
+}
+
+#news-collumn {
+  transition: all 0.22s ease-out;
+}
+
+#news-collumn:hover {
+  background: rgba(0, 0, 0, 0.095);
+  cursor: pointer;
+}
+
+button {
+  --primary-color: black;
+  --secondary-color: #fff;
+  --hover-color: white;
+  --arrow-width: 10px;
+  --arrow-stroke: 2px;
+  box-sizing: border-box;
+  border: 0;
+  border-radius: 20px;
+  color: white;
+  padding: 0.5em 1.8em;
+  background: black;
+  display: flex;
+  transition: 0.2s background;
+  align-items: center;
+  gap: 0.6em;
+}
+
+button .arrow-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button .arrow {
+  margin-top: 1px;
+  width: var(--arrow-width);
+  background: transparent;
+  height: var(--arrow-stroke);
+  position: relative;
+  transition: 0.2s;
+}
+
+button .arrow::before {
+  content: "";
+  box-sizing: border-box;
+  position: absolute;
+  border: solid white;
+  border-width: 0 var(--arrow-stroke) var(--arrow-stroke) 0;
+  display: inline-block;
+  top: -3px;
+  right: 3px;
+  transition: 0.2s;
+  padding: 3px;
+  transform: rotate(-45deg);
+}
+
+button:hover {
+  background-color: #ed1b24;
+  color: white;
+}
+
+button:hover .arrow {
+  background: white;
+}
+
+button:hover .arrow:before {
+  right: 0;
+}
+
+#socmed-update img {
+  height: 380px;
+  width: auto;
+  object-fit: cover;
+}
+
+.card {
+  background: transparent;
+  border: transparent;
+}
+
+#socmed-update .card-img-top {
+  border-radius: 30px;
+  padding: 5px;
+  transition: all 0.42s;
+  overflow: hidden;
+}
+
+#socmed-update .card-img-top:hover {
+  border-radius: 35px;
+  padding: 10px;
+}
+
+#socmed-update #card-body img {
+  height: 40px;
+  width: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #ed1b24;
+}
+
+/* Active Member */
+
+#member-card {
+  transition: all 0.42s;
+}
+
+#member-card .card-img-top {
+  border: 4px solid white;
+  border-radius: 20px;
+  transition: all 0.42s;
+}
+
+#member-card:hover .card-img-top {
+  border: 4px solid #ed1b24;
+  border-radius: 30px;
+}
+
+#member-card p {
+  color: #ed1b24;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.42s;
+}
+
+#member-card:hover p {
+  visibility: visible;
+  opacity: 1;
+}
+
+#footer p {
+  color: black;
+  transition: all 0.42s;
+  font-size: smaller;
+}
+
+#footer span {
+  color: black;
+  transition: all 0.42s;
+}
+
+#footer:hover span {
+  color: #ed1b24;
+}
+
+#collapseExample {
+  box-shadow: 0px 5px 35px rgba(0, 0, 0, 0.2);
+  border: 3px solid white;
+  transition: all 0.42s;
+}
+
+#collapseExample:hover {
+  border: 3px solid #ed1b24;
+}
+
+#collapseExample a {
+  color: black;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  transition: all 0.42s;
+}
+
+#collapseExample a:hover {
+  color: #ed1b24;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#toha-box .title {
+  border-bottom: 3px solid black;
+  transition: all 0.42s;
+}
+
+#toha-box:hover .title {
+  border-bottom: 3px solid #ed1b24;
+}
+
+#jkt48toha h4 {
+  color: #ed1b24;
+  transition: all 0.42s;
+}
+
+#toha-box h3 {
+  color: black;
+  transition: all 0.42s;
+}
+
+#toha-box:hover h3 {
+  color: #ed1b24;
+}
+
+#jkt48toha #timeline a {
+  color: white;
+  border: 3px solid #ed1b24;
+  background: #ed1b24;
+  transition: all 0.42s;
+  padding: 10px 15px 10px 15px;
+}
+
+#jkt48toha #timeline a:hover {
+  padding: 10px 25px 10px 25px;
+}

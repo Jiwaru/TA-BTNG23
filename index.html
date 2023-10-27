@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JKT48 Plus</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/assets/styles/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;600;700;800;900&family=Poppins:wght@100;300;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg bg-white p-3">
+      <div class="container">
+        <a class="navbar-brand fw-bold fs-1" id="logo" href="index.html"
+          >JKT<span>48</span><span class="plus">+</span></a
+        >
+        <button
+          class="navbar-toggler shadow-none border-0 bg-white"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul
+            class="navbar-nav mb-2 mb-lg-0 d-flex justify-content-center flex-grow-1"
+          >
+            <li class="nav-item">
+              <a class="nav-link fs-5 ms-4" href="index.html">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle fs-5 ms-4"
+                href="member.html"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Member
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="member.html#activerMember"
+                    >Active</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="member.html#trainee"
+                    >Trainee</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="member.html#gradMember"
+                    >Graduated</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fs-5 ms-4" href="lyrics.html">Lyrics</a>
+            </li>
+          </ul>
+          <div class="d-flex justify-content-center align-items-center">
+            <a class="nav-link fs-5 ms-4" id="jkt48toha" href="jkt48toha.html"
+              >JKT48とは?</a
+            >
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- HOME SECTION -->
+    <section id="home" class="bg-white">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 mt-4 mb-3">
+            <div
+              id="carouselExampleAutoplaying"
+              class="carousel slide carousel-dark"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner ps-5 pe-5 pb-5">
+                <div class="carousel-item active">
+                  <a
+                    href="https://www.youtube.com/watch?v=5cy3vDjTfFY
+                  "
+                    target="_blank"
+                    ><img
+                      src="assets\img\heroSlide\sayonaracrawl.jpg"
+                      class="d-block mx-auto"
+                      alt="..."
+                  /></a>
+                </div>
+                <div class="carousel-item">
+                  <a
+                    href="https://www.youtube.com/watch?v=pPh0dqgsnpI
+                  "
+                    target="_blank"
+                    ><img
+                      src="assets\img\heroSlide\kebunbinatangsaathujan.jpg"
+                      class="d-block mx-auto"
+                      alt="..."
+                  /></a>
+                </div>
+                <div class="carousel-item">
+                  <a
+                    href="https://www.youtube.com/watch?v=bCeWCo8ICPc
+                  "
+                    target="_blank"
+                    ><img
+                      src="assets\img\heroSlide\punkish.jpg"
+                      class="d-block mx-auto"
+                      alt="..."
+                  /></a>
+                </div>
+                <div class="carousel-item">
+                  <a
+                    href="https://www.youtube.com/watch?v=2wvqBMjPmqk
+                  "
+                    target="_blank"
+                    ><img
+                      src="assets\img\heroSlide\ponytaildanshushu.jpg"
+                      class="d-block mx-auto"
+                      alt="..."
+                  /></a>
+                </div>
+                <div class="carousel-item">
+                  <a
+                    href="https://www.youtube.com/watch?v=2HPbAvzPVlo
+                  "
+                    target="_blank"
+                    ><img
+                      src="assets\img\heroSlide\masadepanyangmenyilaukan.jpg"
+                      class="d-block mx-auto"
+                      alt="..."
+                  /></a>
+                </div>
+                <div class="carousel-item">
+                  <a
+                    href="https://www.youtube.com/watch?v=UUGY64rPLxo
+                  "
+                    target="_blank"
+                    ><img
+                      src="assets\img\heroSlide\benagsariputikkupukupumalam.jpg"
+                      class="d-block mx-auto"
+                      alt="..."
+                  /></a>
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev pe-5 pb-5 bg-transparent"
+                type="button"
+                data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next ps-5 pb-5 bg-transparent"
+                type="button"
+                data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- NEWS SECTION -->
+
+    <section id="news" class="">
+      <div class="container mt-3">
+        <div
+          class="title w-75 d-flex mx-auto justify-content-center align-items-center pt-2"
+        >
+          <h2 class="fw-bold">NEWS</h2>
+        </div>
+        <a
+          href="https://jkt48.com/news/detail/id/1714?lang=id"
+          target="_blank"
+          class="text-decoration-none text-reset"
+        >
+          <div
+            class="row w-75 d-flex mx-auto align-items-start p-3"
+            id="news-collumn"
+          >
+            <div class="news-type col-12 col-md-2 text-center p-1" id="event">
+              EVENT
+            </div>
+            <div
+              class="col-12 col-md-3 text-start pt-3 pt-md-1 text-md-center p-1"
+            >
+              20 Oktober 2023
+            </div>
+            <div class="col-12 col-md-7 p-1 pt-1 pt-md-1">
+              Pengumuman Mengenai JKT48 OFC Event “RUMBLE IN THE ZONE” with
+              JKT48 Trainee
+            </div>
+          </div>
+        </a>
+
+        <a
+          href="https://jkt48.com/news/detail/id/1713?lang=id"
+          target="_blank"
+          class="text-decoration-none text-reset"
+        >
+          <div
+            class="row w-75 d-flex mx-auto align-items-start p-3"
+            id="news-collumn"
+          >
+            <div class="news-type col-12 col-md-2 text-center p-1" id="goods">
+              GOODS
+            </div>
+            <div
+              class="col-12 col-md-3 text-start pt-3 pt-md-1 text-md-center p-1"
+            >
+              18 Oktober 2023
+            </div>
+            <div class="col-12 col-md-7 p-1 pt-1 pt-md-1">
+              Pengumuman Mengenai Merchandise “Sayonara Crawl Special Set”
+            </div>
+          </div>
+        </a>
+
+        <a
+          href="https://jkt48.com/news/detail/id/1712?lang=id"
+          target="_blank"
+          class="text-decoration-none text-reset"
+        >
+          <div
+            class="row w-75 d-flex mx-auto align-items-start p-3"
+            id="news-collumn"
+          >
+            <div class="news-type col-12 col-md-2 text-center p-1" id="release">
+              RELEASE
+            </div>
+            <div
+              class="col-12 col-md-3 text-start pt-3 pt-md-1 text-md-center p-1"
+            >
+              18 Oktober 2023
+            </div>
+            <div class="col-12 col-md-7 p-1 pt-1 pt-md-1">
+              Pengumuman Mengenai Perilisan Album Fajar Sang Idola, Back Hip
+              Circle, dan Mahagita Vol. 2”
+            </div>
+          </div></a
+        >
+
+        <a
+          href="https://jkt48.com/news/list?lang=id"
+          target="_blank"
+          class="text-decoration-none text-reset"
+        >
+          <div
+            class="col-12 d-flex justify-content-center pt-4 pb-5 text-center"
+          >
+            <a
+              class="text-decoration-none"
+              href="https://jkt48.com/news/list?lang=id"
+              target="_blank"
+            >
+              <button>
+                See More
+                <div class="arrow-wrapper">
+                  <div class="arrow"></div>
+                </div>
+              </button>
+            </a></div
+        ></a>
+      </div>
+    </section>
+
+    <!-- Social Media Updates -->
+    <section id="socmed-update" class="bg-white">
+      <div class="container w-75 mt-4 mb-5">
+        <div
+          class="title d-flex mx-auto justify-content-center align-items-center pb-4 mt-4 mb-2"
+        >
+          <h3 class="text-center">Social Media Updates</h3>
+        </div>
+        <div class="row d-flex justify-content-center mt-3">
+          <div class="col-12 col-md-6 col-lg-3 justify-content-center">
+            <a
+              href="https://x.com/C_JessiJKT48/status/1715715393820696733?s=20"
+              target="_blank"
+              class="text-decoration-none"
+              ><div class="card">
+                <img
+                  src="assets\img\socmedUpdate\F89yDbCbUAAVezv.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div
+                  class="card-body d-flex justify-content-start align-items-center gap-3"
+                  id="card-body"
+                >
+                  <img
+                    src="assets\img\memberProfile\jessica_chandra.jpg"
+                    alt=""
+                  />
+                  <p class="card-title">@C_JessiJKT48</p>
+                </div>
+              </div></a
+            >
+          </div>
+          <div
+            class="col-12 col-md-6 col-lg-3 justify-content-center pt-4 pt-md-4"
+          >
+            <a
+              href="https://x.com/A_FionyJKT48/status/1715744938724561082?s=20"
+              target="_blank"
+              class="text-decoration-none"
+            >
+              <div class="card">
+                <img
+                  src="assets\img\socmedUpdate\F8-M7E8aoAAjwsM.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div
+                  class="card-body d-flex justify-content-start align-items-center gap-3"
+                  id="card-body"
+                >
+                  <img
+                    src="assets\img\memberProfile\fiony_alveria.jpg"
+                    alt=""
+                  />
+                  <p class="card-title">@A_FionyJKT48</p>
+                </div>
+              </div></a
+            >
+          </div>
+          <div
+            class="col-12 col-md-6 col-lg-3 justify-content-center pt-4 pt-md-0"
+          >
+            <a
+              href="https://x.com/C_IndahJKT48/status/1714956806789984285?s=20"
+              target="_blank"
+              class="text-decoration-none"
+              ><div class="card">
+                <img
+                  src="assets\img\socmedUpdate\F8zAHULa4AAyOKa.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div
+                  class="card-body d-flex justify-content-start align-items-center gap-3"
+                  id="card-body"
+                >
+                  <img src="assets\img\memberProfile\indah_cahya.jpg" alt="" />
+                  <p class="card-title">@C_IndahJKT48</p>
+                </div>
+              </div></a
+            >
+          </div>
+          <div
+            class="col-12 col-md-6 col-lg-3 justify-content-center pt-4 pt-md-4"
+          >
+            <a
+              href="https://x.com/S_AshelJKT48/status/1711366805015634036?s=20"
+              target="_blank"
+              class="text-decoration-none"
+              ><div class="card">
+                <img
+                  src="assets\img\socmedUpdate\F7__CSFbkAAwWsF.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div
+                  class="card-body d-flex justify-content-start align-items-center gap-3"
+                  id="card-body"
+                >
+                  <img
+                    src="assets\img\memberProfile\adzana_shaliha.jpg"
+                    alt=""
+                  />
+                  <p class="card-title">@S_AshelJKT48</p>
+                </div>
+              </div></a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer  -->
+    <section id="footer" class="mt-5 mb-4">
+      <div class="container bg-white w-75">
+        <div class="row mx-auto pt-4">
+          <div class="col-12 text-center">
+            <p>
+              Created by <span class="fw-bold">Sen Arya</span> as
+              <span class="fw-bold">Final Assignment</span> for
+              <span class="fw-bold">BTNG 2023</span> -
+              <span class="fw-bold">Web Division</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- JS BOOTSTRAP -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
